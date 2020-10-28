@@ -1,10 +1,11 @@
 //Special thanks to the following video for basic logic and game structure format
 //Intro to Game Development with JavaScript - Full Tutorial by freeCodeCamp.org
 //https://www.youtube.com/watch?v=3EMxBkqC4z0
+//Code by Benjamin Blauch
 
-//Gets our canvas
+//Gets the canvas
 let canvas = document.getElementById("gameScreen");
-//Gets our 2d context
+//Gets the 2d context
 let ctx = canvas.getContext("2d");
 
 //Constant width and height for the game. Same dimensions as the canvas in html
